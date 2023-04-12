@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Title */
+  title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 50px;
+  }
+  
+  /* Form */
+  form {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* File input */
+  input[type="file"] {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Submit button */
+  input[type="submit"] {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3c7bba;
+  }
+  
+
+/* Result container */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Image container */
+.image-container {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+  border: 5px solid #4a90e2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Image */
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Back link */
+.back-link {
+  font-size: 18px;
+  color: #4a90e2;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

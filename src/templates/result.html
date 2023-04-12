@@ -1,8 +1,21 @@
-<title>Animal Predict App</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Predict App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
 
     <h1>これは{{ animalName }}です</h1>
-    <div>
-        <img src="{{ image }}">
-    </div>
-    <a href="./">トップへ戻る</a>
 
+    <div class="result-container">
+        <div class="image-container">
+            <img src="{{ image }}">
+        </div>
+        <a class="back-link" href="./">トップへ戻る</a>
+    </div>
+
+</body>
+</html>
